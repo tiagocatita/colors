@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+#canvas {
+    margin: 0 auto;
+}
+
+span {
+    background: yellow;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+input[type=color] {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 50px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+#cols, #text {
+    margin: 10px 0;
+}
+
+#text {
+    width: 500px;
+}
+
+#random {
+    margin-bottom: 20px;
+}
+
+.box {
+    display: inline-block;
+}

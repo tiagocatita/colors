@@ -1,0 +1,28 @@
+{
+  "name": "Colors",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Colors",
+  "main": "app.js",
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "rimraf dist/",
+    "start": "npm run build && npm run serve",
+    "serve": "webpack-dev-server --inline --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "4.0.1",
+    "css-loader": "^0.25.0",
+    "node-sass": "^3.11.3",
+    "rimraf": "2.5.4",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

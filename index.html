@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nespresso colors</title>
+</head>
+
+<body>
+  <div id="colors"></div>
+  <div id="setup">
+    <label>Columns</label>
+    <input type="number" id="cols" onkeyup="setCols()" onchange="setCols()"><br>
+    <textarea id="text" onkeyup="setText()" onchange="setText()" rows="7"></textarea><br>
+    <button id="random" onclick="random()">Random colors</button>
+  </div>
+  <div id="canvas"></div>
+
+
+</body>
+<script src="bundle.js"></script>
+
+</html>
